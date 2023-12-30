@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class StrLen {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int length=0;
+
+        System.out.println("input a word");
+        String str=sc.next();
+
+        for(char c1 :str.toCharArray()){
+            length++;
+        }
+        System.out.println("length of string "+ length);
+    }
+}
